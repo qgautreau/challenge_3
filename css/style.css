@@ -38,6 +38,8 @@ main {
 
 main section {
     text-align: center;
+    margin-top: 0;
+    box-sizing: border-box;
 }
 
 main section article {
@@ -49,6 +51,12 @@ main section img {
     border-radius: 50%;
     margin-top: 6em;
     margin-right: 2em;
+}
+
+section:first-child {
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .fondvert {
@@ -122,6 +130,9 @@ a {
     text-decoration: none;
 }
 
+.selected {
+    color: #27ae61;
+}
 h1 {
     display: inline-block;
     color: #2b3f48;
@@ -132,7 +143,7 @@ h1 {
 }
 
 h2{
-    margin-top: 2em;
+    padding-top: 2em;
     font-size: 55px;
 }
 

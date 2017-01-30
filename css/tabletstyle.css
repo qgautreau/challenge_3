@@ -1,0 +1,51 @@
+body {
+    font-size: 1em;
+}
+
+header {
+    width: 99%;
+}
+
+header nav {
+    width: 100%;
+}
+header nav li {
+    display: inline-block;
+    margin-left: 8%;
+}
+
+main {
+    text-align: center;
+    box-sizing: border-box;
+}
+main section article {
+    width: auto;
+    margin: 0;
+}
+
+main section img {
+    display: inline-block;
+    margin: 0;
+    padding-top: 3%;
+    padding-right: 2%;
+    width: 20%;
+    height: auto;
+
+}
+
+h1 {
+    margin-left: 42%;
+}
+
+h1,h2 {
+    font-size: 2em;
+}
+
+h2 {
+    padding-top: 0;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.5em;
+}
