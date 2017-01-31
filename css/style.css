@@ -5,14 +5,12 @@ body {
     font-family: 'News Cycle', sans-serif;
 }
 
-header {
-    width: 1000px;
-}
 
 
 header nav {
     display: inline-block;
-    vertical-align: middle;
+    text-align: right;
+    width: 75%;
 }
 
 
@@ -39,12 +37,12 @@ main section {
 
 main section article {
     width: 1000px;
-    margin-left: 500px;
+    margin: auto;
 }
 
 main section img {
     border-radius: 50%;
-    margin-top: 6em;
+    margin-top: 8em;
     margin-right: 2em;
 }
 
@@ -90,7 +88,7 @@ button {
     border-radius: 10px;
     height: 4em;
     width: 16em;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
     margin-top: 3em;
 }
 
@@ -115,6 +113,7 @@ footer {
 
 footer p {
     color: #656565;
+    padding: 3.5em 0;
 }
 
 footer a {
@@ -132,11 +131,10 @@ h1 {
     display: inline-block;
     color: #2b3f48;
     font-size: 55px;
-    margin-left: 3em;
+    margin-left: 1em;
 }
 
 h2:not(.pastime){
-    padding-top: 2em;
     font-size: 55px;
 }
 
@@ -153,6 +151,13 @@ h3 {
     font-size: 55px;
 }
 
+#contactus {
+
+    background-color: #27ae61;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+}
+
 #contact-form {
     width: 40%;
     margin-left: 10.3em;
@@ -162,7 +167,7 @@ h3 {
 #contact-form h3 {
     font-size: 22px;
     margin-bottom: 3em;
-    margin-left: 50%;
+    margin-left: 40%;
     margin-top: 0em;
 }
 
@@ -171,10 +176,7 @@ h3 {
     margin-left: 1em;
     background-color: #27ae61;
     border-radius: 1em 1em 0 0;
-    border: 1px solid #27ae61;
     color: white;
-    background-image: url("../images/banner.png");
-    background-size: cover;
 }
 
 #form {
@@ -196,12 +198,12 @@ span {
     display: inline-block;
     margin: 0 0.5em;
     font-size: 1.2em;
-    color: #27ae61;
+    color: white;
 }
 
 fieldset {
     margin: 0.5em 0;
-    padding: 1em;
+    padding: 1.2em;
     background-color: #F8F8F8;
     border: 0;
     border-radius: 0.3em;

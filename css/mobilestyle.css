@@ -4,11 +4,20 @@ body {
 
 header {
     width: 99%;
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+}
+
+header nav ul {
+    padding: 0;
 }
 
 header nav li {
     display: block;
-    margin-left: 50%;
+    margin-left: 0;
 }
 
 main {
@@ -32,7 +41,7 @@ main section img {
 }
 
 h1 {
-    margin-left: 35%;
+    margin-left: 0;
 }
 
 h1,h2 {
