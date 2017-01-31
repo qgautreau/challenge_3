@@ -137,12 +137,11 @@ h1 {
     display: inline-block;
     color: #2b3f48;
     font-size: 55px;
-    margin-right: 11em;
     margin-left: 3em;
     margin-right: 8em;
 }
 
-h2{
+h2:not(.pastime){
     padding-top: 2em;
     font-size: 55px;
 }
@@ -151,4 +150,84 @@ h3 {
     font-size: 22px;
     margin-bottom: 3em;
     margin-top: -2em;
+}
+
+.pastime {
+    display: inline-block;
+    color: #2b3f48;
+    font-size: 55px;
+    margin-left: 3em;
+}
+
+#contact-form {
+    width: 40%;
+    margin-left: 0.3em;
+    color: grey;
+}
+
+#contact-form > div {
+    padding: 1.5em;
+    margin-left: 1em;
+    background-color: #27ae61;
+    border-radius: 1em 1em 0 0;
+    border: 1px solid #27ae61;
+    color: white;
+    background-image: url("../images/banner.png");
+    background-size: cover;
+}
+
+#form {
+    padding: 1em;
+    margin-left: 1em;
+    box-shadow: 0 0 3px lightgrey;
+    border-radius: 0 0 0.3em 0.3em;
+}
+
+#contact-form > div > p,
+h1 {
+    margin: 0;
+}
+
+span {
+    padding: 0.4em 1em;
+    background-color: #27ae61;
+    color: white;
+    border-radius: 100%;
+}
+
+#contact-form h2 {
+    display: inline;
+    margin: 0 0.5em;
+    font-size: 1.2em;
+    color: #27ae61;
+}
+
+fieldset {
+    margin: 0.5em 0;
+    padding: 1em;
+    background-color: #F8F8F8;
+    border: 0;
+    border-radius: 0.3em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input:not([type="checkbox"]):not([type="submit"]),
+textarea {
+    padding: 0.5em;
+    background-color: white;
+    border: 1px solid darkgrey;
+    border-radius: 0.3em;
+    width: 100%;
+}
+
+input[type="submit"] {
+    padding: 0.5em 1em;
+    color: white;
+    background-color: #27ae61;
+    border: 1px solid #27ae61;
+    border-radius: 0.3em;
 }

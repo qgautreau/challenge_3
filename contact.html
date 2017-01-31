@@ -8,9 +8,48 @@
         <link href="./css/tabletstyle.css" media="screen and (min-width :381px) and (max-width : 999px)" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
     </head>
+    <header>
+        <h2 class="pastime">Pastime</h2>
+        <nav>
+            <ul>
+                <li><a href="./index.html">HOMEPAGE</a></li>
+                <li><a href="#">OUR CLIENTS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">CAREERS</a></li>
+                <li><a href="./contact.html" class="selected">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header>
     <body>
-        <form action="">
-
+        <form action="#" method="post" id="contact-form">
+            <div>
+                <h1>Contact Us</h1>
+                <p>Tell us what you need</p>
+            </div>
+            <section id="form">
+                <span>1</span><h2>Name & Address</h2>
+                <fieldset>
+                    <label for="fullname">Your Full Name</label>
+                    <input type="text" name="fullname" >
+                    <label for="address">Address</label>
+                    <textarea name="address"></textarea>
+                </fieldset>
+                <span>2</span><h2>Email & Phone</h2>
+                <fieldset>
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" >
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone">
+                </fieldset>
+                <span>3</span><h2>Message</h2>
+                <fieldset>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" >
+                    <label for="message">Your Message</label>
+                    <textarea cols="69" rows="4" name="message"></textarea>
+                </fieldset>
+                <input type="submit" name="valider" value="Valider">
+            </section>
         </form>
     </body>
     <script src="./js/script.js"></script>
