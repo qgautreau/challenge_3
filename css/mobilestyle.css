@@ -32,7 +32,7 @@ main section img {
 }
 
 h1 {
-    margin-left: 35%;    
+    margin-left: 35%;
 }
 
 h1,h2 {
@@ -46,4 +46,26 @@ h3 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 1.5em;
+}
+
+#contact-form {
+    width: 100%;
+    margin-left: 0;
+    color: grey;
+}
+
+.pastime {
+    display: block;
+    color: #2b3f48;
+    font-size: 2em;
+    margin-left: 3.7em;
+    margin-bottom: 0;
+}
+
+li {
+    margin: 1em 0;
+}
+
+nav a {
+    padding: 1em 0;
 }
